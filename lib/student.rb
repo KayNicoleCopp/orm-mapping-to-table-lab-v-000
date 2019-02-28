@@ -21,7 +21,7 @@ def self.create_table
 
   def self.drop_table
     sql =  <<-SQL
-      DELETE TABLE students (
+      DELETE students (
         id INTEGER PRIMARY KEY,
         name TEXT,
         grade TEXT
